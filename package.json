@@ -1,0 +1,36 @@
+{
+  "name": "fastify-nats-streaming",
+  "version": "0.1.0",
+  "description": "Fastify plugin for using NATS Streaming",
+  "main": "plugin.js",
+  "scripts": {
+    "example": "node example.js",
+    "test:unit": "standard && tap test.js",
+    "test": "npm run test:unit"
+  },
+  "dependencies": {
+    "fastify-plugin": "^0.2.2",
+    "node-nats-streaming": "^0.0.26"
+  },
+  "devDependencies": {
+    "fastify": "^0.43.0",
+    "request": "^2.83.0",
+    "standard": "^10.0.3",
+    "tap": "^11.1.0"
+  },
+  "homepage": "https://github.com/smartiniOnGitHub/fastify-nats-streaming#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartiniOnGitHub/fastify-nats-streaming.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smartiniOnGitHub/fastify-nats-streaming/issues"
+  },
+  "keywords": [
+    "fastify",
+    "plugin",
+    "nats-streaming"
+  ],
+  "author": "Sandro Martini <sandro.martini@gmail.com>",
+  "license": "Apache-2.0"
+}

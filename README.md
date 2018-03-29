@@ -10,7 +10,7 @@ TODO: ...
 ## Requirements
 
 Fastify 0.43.0 or later.
-NATS Streaming Server 0.7.0 or later.
+NATS Streaming Server 0.9.0 or later.
 
 
 ## References

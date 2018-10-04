@@ -2,26 +2,26 @@
   "name": "fastify-nats-streaming",
   "version": "0.1.0",
   "description": "Fastify plugin for using NATS Streaming",
-  "main": "plugin.js",
+  "main": "src/plugin",
   "scripts": {
     "example": "node example/example",
     "lint": "standard \"./*.js\" \"./src/**/*.js\" \"./test/**/*.test.js\" \"./example/**/*.js\"",
-    "test:unit": "tap test/*.test.js test/*/*.test.js",
+    "test:unit": "tap -J test/*.test.js test/*/*.test.js",
     "test": "npm run lint && npm run test:unit"
   },
   "dependencies": {
     "fastify-plugin": "^0.2.2",
-    "node-nats-streaming": "^0.0.40"
+    "node-nats-streaming": "^0.0.50"
   },
   "devDependencies": {
     "fastify": "^0.43.0",
-    "simple-get": "^3.0.2",
-    "standard": "^11.0.1",
+    "simple-get": "^3.0.3",
+    "standard": "^12.0.1",
     "tap": "^12.0.1"
   },
   "peerDependencies": {},
   "engines": {
-    "node": ">=8.11.3"
+    "node": ">=8.12.0"
   },
   "homepage": "https://github.com/smartiniOnGitHub/fastify-nats-streaming#readme",
   "repository": {

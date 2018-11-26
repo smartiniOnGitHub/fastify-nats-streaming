@@ -1,5 +1,12 @@
 # fastify-nats-streaming
-Fastify Plugin for NATS Streaming
+
+  [![NPM Version](https://img.shields.io/npm/v/fastify-nats-streaming.svg?style=flat)](https://npmjs.org/package/fastify-nats-streaming/)
+  [![NPM Downloads](https://img.shields.io/npm/dm/fastify-nats-streaming.svg?style=flat)](https://npmjs.org/package/fastify-nats-streaming/)
+  [![Code Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+  [![Coverage Status](https://coveralls.io/repos/github/smartiniOnGitHub/fastify-nats-streaming/badge.svg?branch=master)](https://coveralls.io/github/smartiniOnGitHub/fastify-nats-streaming/?branch=master)
+
+
+Fastify Plugin for interacting with a NATS Streaming server
 
 
 ## Usage
@@ -9,8 +16,8 @@ TODO: ...
 
 ## Requirements
 
-Fastify 0.43.0 or later.
-NATS Streaming Server 0.9.0 or later.
+Fastify ^1.1.0 or later.
+NATS Streaming Server 0.11.2 or later.
 
 
 ## References

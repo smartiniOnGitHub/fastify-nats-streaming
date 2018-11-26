@@ -26,6 +26,6 @@ function fastifyNatsStreaming (fastify, options, next) {
 }
 
 module.exports = fp(fastifyNatsStreaming, {
-  fastify: '>=0.43.0',
+  fastify: '^1.1.0',
   name: 'fastify-nats-streaming'
 })

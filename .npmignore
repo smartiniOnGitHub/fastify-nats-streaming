@@ -15,10 +15,13 @@ private/
 tmp/
 temp/
 
+coverage/
+.nyc_output
+
 scripts/
 src/
 test/
-example/
+# example/
 
 *.zip
 *.tar
@@ -31,6 +34,7 @@ example/
 .eslintignore
 .eslintrc*
 .eslintcache
+.esdoc.json
 .yarn-integrity
 
 .editorconfig

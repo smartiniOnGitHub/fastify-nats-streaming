@@ -19,6 +19,8 @@ TODO: ...
 ## Requirements
 
 Fastify ^1.1.0 or later, NATS Streaming Server 0.11.2 or later , Node.js 8.15.x or later.
+Note that plugin releases 0.x and 1.x are for Fastify 1.x, 
+plugin releases 2.x are for Fastify 2.x, etc.
 
 
 ## References

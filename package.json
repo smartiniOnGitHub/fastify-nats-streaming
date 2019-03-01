@@ -15,13 +15,13 @@
   },
   "dependencies": {
     "fastify-plugin": "^1.5.0",
-    "node-nats-streaming": "^0.0.51"
+    "node-nats-streaming": "^0.0.52"
   },
   "devDependencies": {
-    "fastify": "^1.14.1",
+    "fastify": "^1.14.2",
     "simple-get": "^3.0.3",
     "standard": "^12.0.1",
-    "tap": "^12.5.2"
+    "tap": "^12.5.3"
   },
   "peerDependencies": {},
   "engines": {

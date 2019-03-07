@@ -11,6 +11,7 @@
     "nats-streaming:clean": "docker rmi nats-streaming",
     "lint": "standard \"./*.js\" \"./src/**/*.js\" \"./test/**/*.test.js\" \"./example/**/*.js\"",
     "test:unit": "tap -J test/*.test.js test/*/*.test.js",
+    "test:unit:debug": "tap -T --strict --node-arg=--inspect-brk test/*.test.js test/*/*.test.js",
     "test": "npm run lint && npm run test:unit"
   },
   "dependencies": {
@@ -18,10 +19,10 @@
     "node-nats-streaming": "^0.0.52"
   },
   "devDependencies": {
-    "fastify": "^1.14.2",
+    "fastify": "^1.14.3",
     "simple-get": "^3.0.3",
     "standard": "^12.0.1",
-    "tap": "^12.5.3"
+    "tap": "^12.6.0"
   },
   "peerDependencies": {},
   "engines": {

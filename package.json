@@ -15,18 +15,17 @@
     "test": "npm run lint && npm run test:unit"
   },
   "dependencies": {
-    "fastify-plugin": "^1.5.0",
-    "node-nats-streaming": "^0.0.52"
+    "fastify-plugin": "^1.6.1",
+    "node-nats-streaming": "^0.3.2"
   },
   "devDependencies": {
-    "fastify": "^1.14.3",
-    "simple-get": "^3.0.3",
-    "standard": "^12.0.1",
-    "tap": "^12.6.0"
+    "fastify": "^2.15.3",
+    "standard": "^14.3.4",
+    "tap": "^14.10.8"
   },
   "peerDependencies": {},
   "engines": {
-    "node": ">=8.15.0"
+    "node": ">=8.17.0"
   },
   "homepage": "https://github.com/smartiniOnGitHub/fastify-nats-streaming#readme",
   "repository": {
